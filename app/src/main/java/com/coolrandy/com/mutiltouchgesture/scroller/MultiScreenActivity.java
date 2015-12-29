@@ -29,6 +29,7 @@ public class MultiScreenActivity extends Activity implements OnClickListener {
 		//获得屏幕分辨率大小
 		DisplayMetrics metric = new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(metric);
+		//获取屏幕宽度和高度
 		screenWidth = metric.widthPixels ;
 		scrrenHeight = metric.heightPixels;
 		System.out.println("screenWidth * scrrenHeight --->" + screenWidth + " * " +scrrenHeight);
