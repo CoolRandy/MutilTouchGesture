@@ -16,6 +16,7 @@ public class TwoFingerGestureDetector extends BaseGestureDetector {
     private float mRightSlopEdge;
     private float mBottomSlopEdge;
 
+
     //分别代表每个手指前一个状态的x和y轴的偏移量
     protected float mPrevFingerDiffX;
     protected float mPrevFingerDiffY;
